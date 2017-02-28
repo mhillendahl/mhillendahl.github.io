@@ -1,0 +1,65 @@
+header{
+    background-color: #777777;
+    background-image: url("gears2.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    max-width: none;
+    max-height: none;
+    padding: 10vw 2em;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+header img{
+    opacity: 0.75;
+    width: 600px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+header h1{
+    color: #ffd800;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin: 2em;
+}
+
+body{
+    background-color: black;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+    font-family: "Lucida Sans Typewriter", sans-serif;
+    color: #a0a0a0;
+}
+
+a{
+    color: #4cff00;
+    font-weight: bold;
+}
+
+h2{       
+    line-height: 0.5;
+    font-family: courier;
+    color: #ffd800;
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+h3{
+    font-size: 1em;
+    color: #d0d0d0;
+}
