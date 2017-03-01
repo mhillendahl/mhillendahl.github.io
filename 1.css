@@ -1,3 +1,18 @@
+header1{
+    background-color: black;
+    background-image: url("mono.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: 1.2;
+    max-width: 75em;
+    height: 50em;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
 header{
     background-color: #777777;
     background-image: url("gears2.jpg");
@@ -11,6 +26,16 @@ header{
     margin: 0 auto;
     text-align: center;
     display: block;
+}
+
+header img1{
+    opacity: 0.75;
+    width: 600px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    padding-top: 25%;
+    vertical-align: middle;
 }
 
 header img{
@@ -28,6 +53,13 @@ header h1{
     margin: 2em;
 }
 
+header div1{
+    height: 50%;
+    vertical-align: middle;
+    margin: auto;
+}
+
+
 h1{
     color: white;
     font-family: sans-serif;
@@ -36,6 +68,10 @@ h1{
 
 body{
     background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
     display: block;
     margin: 0;
     padding: 0;
