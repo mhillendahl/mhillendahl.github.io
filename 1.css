@@ -28,6 +28,12 @@ header h1{
     margin: 2em;
 }
 
+h1{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
 body{
     background-color: black;
     display: block;
@@ -46,7 +52,6 @@ main{
 
 a{
     color: #4cff00;
-    font-weight: bold;
 }
 
 h2{       

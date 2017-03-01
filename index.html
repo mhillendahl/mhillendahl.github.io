@@ -9,16 +9,15 @@
     
     <header id="header">
         <a href="https://www.linkedin.com/in/mhillendahl/">
-            <img id="logo" src="./mh2.png" alt="michael forester hillendahl">
+            <img onmouseover="myFace()" onmouseleave="stopMyFace()" id="logo" src="./mh2.png" alt="michael forester hillendahl">
         </a>
-            
-        <!--<h1>michael forester hillendahl</h1>-->
-    
     </header>
     
     <main>
 
-            <h3>behold.</h3>
+        <h1>michael hillendahl</h1>
+    
+            <p>behold.</p>
             
             <p>mhillendahl.com is a Google Domain pointed at a web project project i'm hosting at mhillendahl.github.io via GitHub Pages. i got half-way there, then 
                 <a href="http://www.curtismlarson.com/blog/2015/04/12/github-pages-google-domains/">these instructions</a> 
@@ -32,6 +31,10 @@
                 <p>i have many years of experience in professional and private environments working with students of all ages: k-8, high school, university, graduate students, and professionals.</p>
                 <p>i tutor many subjects, but my focus has been on math, science, and engineering material</p>
 
+            <h3>computer maintenance & repair</h3>
+            
+                <p>i have been building and administering PCs for several decades. if you're having problems with your machine, i'd be happy to check it out.</p>
+                
         <h2>career</h2><hr>
 
             <h3>embedded firmware engineer</h3>
@@ -53,7 +56,20 @@
         
         <p>give me the details and i'll give you my thoughts.</p>
         
-    </main
+    </main>
+    
+    <script>
+    
+        function myFace(){
+            document.body.style.backgroundImage = "url('me1.jpeg')";
+        }
+        
+        function stopMyFace(){
+            document.body.style.backgroundImage = "none";
+        }
+    
+    
+    </script>
     
 </body>
 
