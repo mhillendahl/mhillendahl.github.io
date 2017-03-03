@@ -1,3 +1,19 @@
+header{
+    background-color: #777777;
+    background: #1f1f1f;
+    background-image:radial-gradient(#575757, #373737);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    max-width: none;
+    max-height: none;
+    padding: 10vw 2em;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
 header1{
     background-color: black;
     background-image: url("mono.jpg");
@@ -13,7 +29,7 @@ header1{
     display: block;
 }
 
-header{
+header0{
     background-color: #777777;
     background-image: url("gears2.jpg");
     background-position: center top;
@@ -28,6 +44,14 @@ header{
     display: block;
 }
 
+header img{
+    opacity: 1;
+    width: 600px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
 header img1{
     opacity: 0.75;
     width: 600px;
@@ -38,7 +62,7 @@ header img1{
     vertical-align: middle;
 }
 
-header img{
+header img0{
     opacity: 0.75;
     width: 600px;
     height: 200px;
@@ -48,33 +72,55 @@ header img{
 
 header h1{
     color: #ffd800;
-    font-family: sans-serif;
     font-size: 24px;
     margin: 2em;
 }
 
-header div1{
-    height: 50%;
-    vertical-align: middle;
-    margin: auto;
+nav{
+    text-color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;    
 }
 
+nav a{
+    display: inline-block;
+    color: white;
+}
+
+nav ul{
+    margin: inherit;
+    padding: inherit;
+}
+
+nav li{
+    display:inline-block;
+    width: 10em;
+}
 
 h1{
     color: white;
-    font-family: sans-serif;
     text-align: center;
+    font-family: 'Open Sans';
+    font-weight: normal;
 }
 
 body{
     background-color: black;
     background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 50%;
     display: block;
     margin: 0;
     padding: 0;
+    background: #1f1f1f;
+    background-repeat: no-repeat;
 }
 
 main{
@@ -82,11 +128,11 @@ main{
     max-width: 50em;
     line-height: 1.5;
     padding: 4em 1em;
-    font-family: "Lucida Sans Typewriter", sans-serif;
+    font-family: lucida, sans-serif;
     color: #a0a0a0;
 }
 
-a{
+main a{
     color: #4cff00;
 }
 
@@ -103,4 +149,9 @@ h2{
 h3{
     font-size: 1em;
     color: #d0d0d0;
+}
+
+@font-face{
+    font-family: 'lucida';
+    src: url('./Lucida Sans Regular.ttf');
 }
