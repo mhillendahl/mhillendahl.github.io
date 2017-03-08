@@ -1,0 +1,124 @@
+header{
+    background-color: black;
+    background: url("./img/mh9.png"), black;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 1.2;
+    width: 100vw;
+    height: 50vh;
+    max-height: 75vw;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+nav-box{
+    displaY: block;
+    background-color: black;
+    width: 100%;    
+    overflow: hidden;
+}
+
+nav{
+    position: relative;
+    margin: 0 auto;
+    padding: 0 3em;
+    width: 75vw;
+    max-width: 60em;
+    
+    text-align: center;
+    background: black;
+    font-family: 'Open Sans';
+    text-color: white;
+    
+}
+
+nav ul{
+    white-space: nowrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    display:table;
+    overflow: hidden;
+    
+    width: 100%;
+}
+
+nav li{
+    display:table-cell;
+    
+    /*display: inline-block;*/
+    float: middle;
+    margin: 0;
+    padding: 0;
+    /*border-left: 1px solid #a0a0a0;*/
+}
+
+nav a{
+    font-size: 125%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    displaY: block;
+    padding: 14px 0;
+    width: contain;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+body{
+    background: #1f1f1f;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 50%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+main{
+    margin: 0 auto;
+    widtH: 75vw;
+    max-widtH: 60em;
+    line-height: 1.5;
+    padding: 6em 3em;
+    font-family: lucida, sans-serif;
+    color: #a0a0a0;
+}
+
+main a{
+    color: #4cff00;
+}
+
+main h2{
+    padding: 0;
+    margin: 0
+}
+
+h2{       
+    line-height: 0.5;
+    font-family: courier;
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+h3{
+    font-size: 1em;
+    color: #d0d0d0;
+}
+
+@font-face{
+    font-family: 'lucida';
+    src: url('./fnt/Lucida Sans Regular.ttf');
+}
