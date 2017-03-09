@@ -1,6 +1,5 @@
 header{
-    background-color: black;
-    background: url("./img/mh9.png"), black;
+    background: url("./img/mh13.png"), black/*#262626*/;
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -15,7 +14,7 @@ header{
 
 nav-box{
     displaY: block;
-    background-color: black;
+    background-color: black/*#262626*/;
     width: 100%;    
     overflow: hidden;
 }
@@ -28,7 +27,6 @@ nav{
     max-width: 60em;
     
     text-align: center;
-    background: black;
     font-family: 'Open Sans';
     text-color: white;
     
@@ -62,7 +60,7 @@ nav a{
     text-decoration: none;
     text-align: center;
     displaY: block;
-    padding: 14px 0;
+    padding: /*14px*/16px 0;
     width: contain;
 }
 
@@ -74,7 +72,7 @@ h1{
 }
 
 body{
-    background: #1f1f1f;
+    background: /*#1f1f1f*/black/*#262626*/;
     background-position: center;
     background-attachment: fixed;
     background-size: 50%;
@@ -86,8 +84,8 @@ body{
 
 main{
     margin: 0 auto;
-    widtH: 75vw;
-    max-widtH: 60em;
+    width: 75vw;
+    max-widtH: /*60em*/80em;
     line-height: 1.5;
     padding: 6em 3em;
     font-family: lucida, sans-serif;
@@ -95,7 +93,7 @@ main{
 }
 
 main a{
-    color: #4cff00;
+    color: #0094FF/*#4cff00*/;
 }
 
 main h2{
