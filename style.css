@@ -13,6 +13,7 @@ header{
 }
 
 nav-box{
+    font-family: lucida, sans-serif;
     displaY: block;
     background-color: black/*#262626*/;
     width: 100%;    
@@ -27,9 +28,7 @@ nav{
     max-width: 60em;
     
     text-align: center;
-    font-family: 'Open Sans';
-    text-color: white;
-    
+    text-color: white;    
 }
 
 nav ul{
@@ -67,7 +66,7 @@ nav a{
 h1{
     color: white;
     text-align: center;
-    font-family: 'Open Sans';
+    font-family: lucida, sans-serif;
     font-weight: normal;
 }
 
