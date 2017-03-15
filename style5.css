@@ -1,10 +1,12 @@
 header{
     background: url("./img/mh14.png"), black/*#262626*/;
-    background-position: top;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
     line-height: 1.2;
     width: 100vw;
+    min-width: 400px;
+    min-height: 300px;
     height: 50vh;
     max-height: 60vw;
     padding: 0;
@@ -48,6 +50,7 @@ a.nav-child{
 div.nav-link{
     font-family: lucida, sans-serif;
     /*font-size: 125%;*/
+    /*color: white;*/
     color: white;
 }
 
@@ -63,8 +66,6 @@ div.nav-link{
     a.nav-child{
         font-size: 4.5vw;
         padding: 16px 0;
-    }
-    a.nav-child:last-child{
     }
     
     main{
