@@ -20,44 +20,49 @@ nav-box{
     overflow: hidden;
 }
 
-nav{
+.nav{
     position: relative;
+    background: gray;
     margin: 0 auto;
     padding: 0 3em;
     width: 75vw;
     max-width: 60em;
+    height: 50px;
     
     text-align: center;
     text-color: white;    
 }
 
-nav ul{
-    white-space: nowrap;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-    display:table;
-    overflow: hidden;
-    
-    width: 100%;
+.nav-parent{
+    display: flex;
+    height: inherit;
+    align-items: stretch;
+    /*align-items: stretch;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-around*/
 }
 
-nav li{
-    display:table-cell;
-    float: middle;
-    margin: 0;
-    padding: 0;
+@media (min-width: 600px) {
+  .nav-parent{
+    /*flex-direction: column*/;
+  }
 }
 
-nav a{
+.nav-child{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav a{
+    font-family: lucida, sans-serif;
     font-size: 125%;
     color: white;
     text-decoration: none;
-    text-align: center;
     display: block;
-    padding: 16px 0;
-    width: contain;
+    /*text-align: center;
+    display: block;*/
 }
 
 h1{
@@ -68,7 +73,7 @@ h1{
 }
 
 body{
-    background: /*#1f1f1f*/black/*#262626*/;
+    background: white;
     background-position: center;
     background-attachment: fixed;
     background-size: 50%;

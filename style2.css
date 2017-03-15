@@ -12,52 +12,46 @@ header{
     display: block;
 }
 
-nav-box{
-    font-family: lucida, sans-serif;
-    display: block;
-    background-color: black;
-    width: 100%;    
-    overflow: hidden;
-}
-
-nav{
+div.nav{
     position: relative;
+    background: gray;
     margin: 0 auto;
     padding: 0 3em;
     width: 75vw;
     max-width: 60em;
+    height: 50px;
     
     text-align: center;
     text-color: white;    
 }
 
-nav ul{
-    white-space: nowrap;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-    display:table;
-    overflow: hidden;
-    
-    width: 100%;
+.nav-parent{
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    align-items: stretch;
 }
 
-nav li{
-    display:table-cell;
-    float: middle;
-    margin: 0;
-    padding: 0;
+@media (max-width: /*750*/1750px) {
+    .nav-parent{
+        flex-direction: column;
+        height: none;
+        align-items: flex-start;
+    }
 }
 
-nav a{
+a.nav-child{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+div.nav-link{
+    font-family: lucida, sans-serif;
     font-size: 125%;
     color: white;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    padding: 16px 0;
-    width: contain;
 }
 
 h1{
@@ -68,7 +62,7 @@ h1{
 }
 
 body{
-    background: /*#1f1f1f*/black/*#262626*/;
+    background: white;
     background-position: center;
     background-attachment: fixed;
     background-size: 50%;
