@@ -1,4 +1,4 @@
-header{
+div.header{
     background: url("./img/mh14.png"), black/*#262626*/;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ div.nav-link{
         padding: 16px 0;
     }
     
-    main{
+    div.main{
         visibility: hidden;
         display: none;
     }
@@ -92,7 +92,7 @@ body{
     background-repeat: no-repeat;
 }
 
-main{
+div.main{
     margin: 0 auto;
     width: 75vw;
     max-widtH: /*60em*/80em;
@@ -102,11 +102,11 @@ main{
     color: #a0a0a0;
 }
 
-main a{
+div.main a{
     color: #0094FF/*#4cff00*/;
 }
 
-main h2{
+div.main h2{
     padding: 0;
     margin: 0
 }
